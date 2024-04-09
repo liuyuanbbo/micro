@@ -1,0 +1,12 @@
+server:
+  jetty:
+    threads:
+      acceptors: 4
+      selectors: 8
+  port: 8081
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: micro-srv-A
